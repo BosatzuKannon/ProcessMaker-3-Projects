@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.3-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1568926683</meta>
+    <meta key="export_datetime"><![CDATA[2019-09-19T20:58:03+00:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[167.71.38.164:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50640</meta>
+    <meta key="workspace">americana</meta>
+    <meta key="name">Reportes</meta>
+    <meta key="uid">7524030865d5ca5df0d83f6095905005</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY"/>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>2976685925d5ca61736eeb0086037814</bou_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <dia_uid>6080910605d5ca5df19eb01084702811</dia_uid>
+        <element_uid>1932728375d5ca6173637c1018237170</element_uid>
+        <bou_element>6080910605d5ca5df19eb01084702811</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>132</bou_y>
+        <bou_width>700</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>6080910605d5ca5df19eb01084702811</dia_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <dia_name>Reportes</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT"/>
+    <table name="EXTENSION"/>
+    <table name="FLOW"/>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET">
+      <record>
+        <lns_uid>1932728375d5ca6173637c1018237170</lns_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <pro_uid>9788796925d5ca5df1cb563035689757</pro_uid>
+        <lns_name>Personal Administrativo</lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>2976685925d5ca61736eeb0086037814</bou_uid>
+        <dia_uid>6080910605d5ca5df19eb01084702811</dia_uid>
+        <element_uid>1932728375d5ca6173637c1018237170</element_uid>
+        <bou_element>6080910605d5ca5df19eb01084702811</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>132</bou_y>
+        <bou_width>700</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>9788796925d5ca5df1cb563035689757</pro_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <dia_uid>6080910605d5ca5df19eb01084702811</dia_uid>
+        <pro_name>Reportes</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <prj_name>Reportes</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2019-08-21 02:01:03]]></prj_create_date>
+        <prj_update_date><![CDATA[2019-08-21 02:01:59]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>7524030865d5ca5df0d83f6095905005</pro_uid>
+        <pro_title>Reportes</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>7524030865d5ca5df0d83f6095905005</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category>52804892357ccc9bf579972092497517</pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2019-08-21 02:01:59]]></pro_update_date>
+        <pro_create_date><![CDATA[2019-08-21 02:01:03]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>Health</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks"/>
+    <table name="routes"/>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>2467260795d5ca61e6b5723024170942</dyn_uid>
+        <dyn_title>FRM_IRA</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>7524030865d5ca5df0d83f6095905005</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[7524030865d5ca5df0d83f6095905005/2467260795d5ca61e6b5723024170942]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"FRM_IRA","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"2467260795d5ca61e6b5723024170942","name":"FRM_IRA","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title1001","label":"INFORME DE INFECCIÓN DE RESPIRACIÓN AGUDA - IRA","colSpan":12}],[{"type":"datetime","variable":"datetimeVar1001","var_uid":"9878114125d5ca6ae793677080787839","dataType":"datetime","protectedValue":false,"id":"datetimeVar1001","name":"datetimeVar1001","label":"Fecha de inicio","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"datetimeVar1001","colSpan":4},{"type":"datetime","variable":"datetimeVar1002","var_uid":"6160255845d5ca6b4d41539018250609","dataType":"datetime","protectedValue":false,"id":"datetimeVar1002","name":"datetimeVar1002","label":"Fecha final","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"datetimeVar1002","colSpan":4},{"type":"button","id":"button1001","name":"button1001","label":"Generar Reporte","colSpan":4}],[{"type":"subtitle","id":"subtitle1001","label":"RESULTADOS","colSpan":12}],[{"colSpan":5},{"type":"label","id":"label1002","label":"<1","colSpan":1},{"type":"label","id":"label1003","label":"1","colSpan":1},{"type":"label","id":"label1004","label":"2 a 4","colSpan":1},{"type":"label","id":"label1005","label":"5 a 19","colSpan":1},{"type":"label","id":"label1006","label":"20 a 39","colSpan":1},{"type":"label","id":"label1007","label":"40 a 59","colSpan":1},{"type":"label","id":"label1008","label":">=60","colSpan":1}],[{"type":"label","id":"label1001","label":"MUERTES Total de muerte por IRAG(J00-J22)","colSpan":5},{"type":"label","id":"label1012","label":"0","colSpan":1},{"type":"label","id":"label1013","label":"0","colSpan":1},{"type":"label","id":"label1014","label":"0","colSpan":1},{"type":"label","id":"label1015","label":"0","colSpan":1},{"type":"label","id":"label1016","label":"0","colSpan":1},{"type":"label","id":"label1017","label":"0","colSpan":1},{"type":"label","id":"label1018","label":"0","colSpan":1}],[{"type":"label","id":"label1009","label":"Todas las causas de muerte","colSpan":5},{"type":"label","id":"label1019","label":"0","colSpan":1},{"type":"label","id":"label1020","label":"0","colSpan":1},{"type":"label","id":"label1021","label":"0","colSpan":1},{"type":"label","id":"label1022","label":"0","colSpan":1},{"type":"label","id":"label1023","label":"0","colSpan":1},{"type":"label","id":"label1024","label":"0","colSpan":1},{"type":"label","id":"label1025","label":"0","colSpan":1}],[{"type":"label","id":"label1010","label":"MORBILIDAD POR IRA Total IRA consulta externa y urgencias","colSpan":5},{"type":"label","id":"label1026","label":"0","colSpan":1},{"type":"label","id":"label0000001027","label":"0","colSpan":1},{"type":"label","id":"label0000001028","label":"0","colSpan":1},{"type":"label","id":"label0000001029","label":"0","colSpan":1},{"type":"label","id":"label0000001030","label":"0","colSpan":1},{"type":"label","id":"label0000001031","label":"0","colSpan":1},{"type":"label","id":"label0000001032","label":"0","colSpan":1}],[{"type":"label","id":"label1011","label":"Total consultas externas y urgencias","colSpan":5},{"type":"label","id":"label1033","label":"0","colSpan":1},{"type":"label","id":"label1034","label":"0","colSpan":1},{"type":"label","id":"label1035","label":"0","colSpan":1},{"type":"label","id":"label1036","label":"0","colSpan":1},{"type":"label","id":"label1037","label":"0","colSpan":1},{"type":"label","id":"label1038","label":"0","colSpan":1},{"type":"label","id":"label1039","label":"0","colSpan":1}]],"variables":[{"var_uid":"9878114125d5ca6ae793677080787839","prj_uid":"7524030865d5ca5df0d83f6095905005","var_name":"datetimeVar1001","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6160255845d5ca6b4d41539018250609","prj_uid":"7524030865d5ca5df0d83f6095905005","var_name":"datetimeVar1002","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2019-08-21 02:47:23]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps"/>
+    <table name="triggers"/>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers"/>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory">
+      <record>
+        <category_uid>52804892357ccc9bf579972092497517</category_uid>
+        <category_parent>0</category_parent>
+        <category_name>Health</category_name>
+        <category_icon></category_icon>
+      </record>
+    </table>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>3194612845d5caaa9b980d9050477028</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>textVar1002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4445104755d5caac0ebc9d0041002159</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>textVar1006</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>5058852685d5caac6eb77b1093485903</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>textVar1007</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6160255845d5ca6b4d41539018250609</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>datetimeVar1002</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7540366995d5caabbd6eed5050112540</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>textVar1005</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7922433835d5caab5a11537007892528</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>textVar1004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8935961095d5caaaf9b1532042481456</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>textVar1003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9878114125d5ca6ae793677080787839</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>datetimeVar1001</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9967372835d5caa8933e074054629302</var_uid>
+        <prj_uid>7524030865d5ca5df0d83f6095905005</prj_uid>
+        <var_name>textVar1001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>FRM_IRA</file_name>
+      <file_path><![CDATA[7524030865d5ca5df0d83f6095905005/2467260795d5ca61e6b5723024170942.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc1MjQwMzA4NjVkNWNhNWRmMGQ4M2Y2MDk1OTA1MDA1LzI0NjcyNjA3OTVkNWNhNjFlNmI1NzIzMDI0MTcwOTQyIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

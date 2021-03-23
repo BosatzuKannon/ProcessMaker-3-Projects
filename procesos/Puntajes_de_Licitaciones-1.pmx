@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.3-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1568926669</meta>
+    <meta key="export_datetime"><![CDATA[2019-09-19T20:57:49+00:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[167.71.38.164:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50640</meta>
+    <meta key="workspace">americana</meta>
+    <meta key="name">Puntajes de Licitaciones</meta>
+    <meta key="uid">4677296875d092f462952e1013059500</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>9280094795d092f73d902d2099374087</act_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <pro_uid>9960555865d092f46aee055089690619</pro_uid>
+        <act_name><![CDATA[Calcular Puntajes de Licitación]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>8867556135d092f73db3552012112357</bou_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <element_uid>9280094795d092f73d902d2099374087</element_uid>
+        <bou_element>5072939465d1b89559f7e33094352838</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>238</bou_x>
+        <bou_y>79</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>1302948695d092f7452bd77032625556</bou_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <element_uid>2946735525d092f7451c369097926451</element_uid>
+        <bou_element>5072939465d1b89559f7e33094352838</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>7893601705d092f7463d4b3076186904</bou_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <element_uid>2601771075d092f74631921081117259</element_uid>
+        <bou_element>5072939465d1b89559f7e33094352838</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>489</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>8867556135d092f73db3552012112357</bou_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <element_uid>9280094795d092f73d902d2099374087</element_uid>
+        <bou_element>5072939465d1b89559f7e33094352838</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>238</bou_x>
+        <bou_y>79</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <dia_name>Puntajes de Licitaciones</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>2946735525d092f7451c369097926451</evn_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <pro_uid>9960555865d092f46aee055089690619</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>1302948695d092f7452bd77032625556</bou_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <element_uid>2946735525d092f7451c369097926451</element_uid>
+        <bou_element>5072939465d1b89559f7e33094352838</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>100</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>2601771075d092f74631921081117259</evn_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <pro_uid>9960555865d092f46aee055089690619</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>7893601705d092f7463d4b3076186904</bou_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <element_uid>2601771075d092f74631921081117259</element_uid>
+        <bou_element>5072939465d1b89559f7e33094352838</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>489</bou_x>
+        <bou_y>100</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>4103646495d41d9c14613a1066049225</flo_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>2946735525d092f7451c369097926451</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>9280094795d092f73d902d2099374087</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>133</flo_x1>
+        <flo_y1>117</flo_y1>
+        <flo_x2>238</flo_x2>
+        <flo_y2>117</flo_y2>
+        <flo_state><![CDATA[[{"x":133,"y":117},{"x":238,"y":117}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>9139913085d41d9c14615a1027559050</flo_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>9280094795d092f73d902d2099374087</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>2601771075d092f74631921081117259</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>389</flo_x1>
+        <flo_y1>117</flo_y1>
+        <flo_x2>489</flo_x2>
+        <flo_y2>117</flo_y2>
+        <flo_state><![CDATA[[{"x":389,"y":117},{"x":489,"y":117}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>9960555865d092f46aee055089690619</pro_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <dia_uid>4960586765d092f465bdd25068051945</dia_uid>
+        <pro_name>Puntajes de Licitaciones</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <prj_name>Puntajes de Licitaciones</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2019-06-18 18:36:54]]></prj_create_date>
+        <prj_update_date><![CDATA[2019-07-31 18:11:13]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <pro_title>Puntajes de Licitaciones</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>4677296875d092f462952e1013059500</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category>5011109515d4b0ca85a20f9095707811</pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2019-07-31 18:11:13]]></pro_update_date>
+        <pro_create_date><![CDATA[2019-07-31 18:11:13]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>Americana</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <tas_uid>9280094795d092f73d902d2099374087</tas_uid>
+        <tas_title><![CDATA[Calcular Puntajes de Licitación]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>238</tas_posx>
+        <tas_posy>79</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>5986964715d41d9c15251b5048005004</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <tas_uid>9280094795d092f73d902d2099374087</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>6357422605d092f8b4c7613009645453</dyn_uid>
+        <dyn_title>PUNTAJES</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[4677296875d092f462952e1013059500\6357422605d092f8b4c7613009645453]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"PUNTAJES","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"6357422605d092f8b4c7613009645453","name":"PUNTAJES","description":"","mode":"edit","script":{"type":"js","code":"inicio();\n\n\nfunction inicio(){\n\n\t$(\"#textVar002\").hide();\n  \n  $(\"#subtitle0000000001\").css(\"color\", \"blue\");\n  $(\"#subtitle0000000002\").css(\"color\", \"red\");\n  $(\"#image0000000001\").css(\"background color\", \"#E69200\");  \n  //$(\"#textVar002\").getControl().maskNumber({decimal: ',', thousands: '.'});\n  //var a = dar_pausa();\n  //$(\"#textVar002\").getControl().maskNumber();\n  //alert(a);\n  startTime();\n  //formato();\n}\n\nfunction startTime() {\n  var today = new Date();\n  var h = today.getHours();\n  var m = today.getMinutes();\n  var s = today.getSeconds();\n  m = checkTime(m);\n  s = checkTime(s);\n  var mostrar = \"Hora Actual \"+h + \":\" + m + \":\" + s;\n  $(\"#subtitle0000000001\").setValue(mostrar);\n  var t = setTimeout(startTime, 500);\n}\n\nfunction checkTime(i) {\n  if (i < 10) {i = \"0\" + i};  // add zero in front of numbers < 10\n  return i;\n}\n\nfunction organizar_descendente(){\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n\n  var proponente = \"\";\n  var fc = \"\";\n  var ai = \"\";\n  var dis = \"\";\n  var v_i = \"\";\n\n  for (var i=1; i <= numRows; i++) {      \n\n      for (var j=2; j <= numRows; j++){\n\n        if(parseFloat($(\"#gridVar001\").getText(j, 5)) > parseFloat($(\"#gridVar001\").getText(j-1, 5))){\n\n          proponente = $(\"#gridVar001\").getText(j, 1);\n          fc = $(\"#gridVar001\").getText(j, 2);\n          ai = $(\"#gridVar001\").getText(j, 3);\n          dis = $(\"#gridVar001\").getText(j, 4);\n          v_i = parseFloat($(\"#gridVar001\").getText(j, 5));\n          \n          $(\"#gridVar001\").setText($(\"#gridVar001\").getText(j-1, 1),j, 1);\n          $(\"#gridVar001\").setText($(\"#gridVar001\").getText(j-1, 2),j, 2);\n          $(\"#gridVar001\").setText($(\"#gridVar001\").getText(j-1, 3),j, 3);\n          $(\"#gridVar001\").setText($(\"#gridVar001\").getText(j-1, 4),j, 4);\n          $(\"#gridVar001\").setText($(\"#gridVar001\").getText(j-1, 5),j, 5);\n\n          $(\"#gridVar001\").setText(proponente,j-1, 1);\n          $(\"#gridVar001\").setText(fc,j-1, 2);\n          $(\"#gridVar001\").setText(ai,j-1, 3);\n          $(\"#gridVar001\").setText(dis,j-1, 4);\n          $(\"#gridVar001\").setText(v_i,j-1, 5);\n\n          //break;\n        }\n      }        \n  }return 1;\n}\n\n$(\"#textVar001\").setOnchange(configureLocation);\n\n$(\"#textVar004\").setOnchange(calcular_aui);\n\nfunction calcular_aui(){\n\t\n  var pi = parseFloat($(\"#textVar003\").getText());\n  var cd = parseFloat($(\"#textVar004\").getText());\n  \n  if(pi != \"\" && cd != \"\"){\n  \t\n    var aui = pi - cd;\n    \n    var aui_por = (aui / cd) * 100;\n    \n    var total = \"%\" + aui_por + \" - $\" + aui.toFixed(2);\n    \n    $(\"#textVar005\").setText(total);\n  }\n}\n\nfunction configureLocation(){\n  \n  $(\"#textVar002\").hide();\n  var x = parseInt($(\"#textVar001\").getValue(), 10);\n\n  if ( x > 0 && x <= 19)\n  {        \n        $(\"#dropdownVar001\").setValue(1);\n  }\n  else if(x <= 39 && x > 19)\n  {\n        $(\"#dropdownVar001\").setValue(2);\n    \t$(\"#textVar002\").show();\n  }\n  else if(x <= 59 && x > 39)\n  {\n        $(\"#dropdownVar001\").setValue(3);     \n  }\n  else if(x <= 79 && x > 59)\n  {\n        $(\"#dropdownVar001\").setValue(4);     \n  }\n  else if(x <= 99 && x > 79)\n  {\n        $(\"#dropdownVar001\").setValue(5);     \n  }\t\n}\n\n\n$(\"#button0000000001\").find(\"button\").on(\"click\" , function() {\t  \n  \n  var a = desresaltar();\n  if($(\"#textVar001\").getValue() == \"\"){      \n      alert(\"Por favor ingrese los dos decimales de la TRM\");    \n  }\n\n  var numRowss1 = $(\"#gridVar001\").getValue();  \n  var numRows1 = numRowss1.length;\n  \n  if(numRows1 == 0){\n    alert(\"Para calcular los ponderados debe haber como mínimo 2 propuestas.\");\n  }\n  else{\n      var numRowss = $(\"#gridVar001\").getValue();  \n      var numRows = numRowss.length;\n      var count=0;\n\n      for (var i=1; i <= numRows; i++) {\n\n          if ($(\"#gridVar001\").getText(i, 5) == \"\") {\n              $(\"#gridVar001\").getControl(i, 5).css(\"border\",\"red solid 1px\");\n              count++;\n          }\n          else {\n              $(\"#gridVar001\").getControl(i, 5).css(\"border\",\"green solid 1px\");\n          }\n      }\n    \n      if (count > 0) {\n\n        alert(\"Por favor ingrese el campo de la Oferta Economica para todas las propuestas participantes.\");\n      }\n      else {\n        \n        var metodo = $(\"#dropdownVar001\").getValue();\n\n        if(metodo == \"2\" && $(\"#textVar002\").getValue() == \"\"){alert(\"Por favor ingrese el valor del Presupuesto Oficial del Proyecto\");}\n        else{\n\n          if(metodo == \"1\"){metodo1();}\n          else if(metodo == \"2\"){metodo2();}\n          else if(metodo == \"3\"){metodo3();}\n          else if(metodo == \"4\"){metodo4();}\n          else {metodo5();}\n        }          \n      }\n  }\n    \n});\n\nfunction metodo1(){\n\n  var r = organizar_descendente();\n  \n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n  var mediana = 0;\n  var recibe = 0;\n\n  if (numRows % 2 == 0){\n\n    mediana = (parseFloat($(\"#gridVar001\").getText((Math.trunc(numRows/2)), 5)) + parseFloat($(\"#gridVar001\").getText(((Math.trunc(numRows/2))+1), 5)))/2;\n    recibe = Math.trunc(numRows/2)+1;\n  }\n  else{\n\n    mediana = parseFloat($(\"#gridVar001\").getText((Math.trunc(numRows/2)+1), 5));\n    recibe = Math.trunc(numRows/2)+1;\n  }\n\n  var puntaje_monetario=0;\n  var v_i =0;\n  var puntaje_total = 0;\n  var fc = false;\n  var ai = false;\n  var dis = false;\n\n  for (var i=1; i <= numRows; i++) {\n\n      v_i = parseFloat($(\"#gridVar001\").getText(i, 5));\n\n      if(i == recibe){\n        puntaje_monetario = 70;\n      }\n      else{\n        puntaje_monetario = 70 * (1 -  (Math.abs((mediana - v_i) / mediana)));\n      }\n            \n      $(\"#gridVar001\").setText(puntaje_monetario.toFixed(7),i, 6);\n\n      fc = $(\"#gridVar001\").getText(i, 2);\n      ai = $(\"#gridVar001\").getText(i, 3);\n      dis = $(\"#gridVar001\").getText(i, 4);\n\n      puntaje_total = puntaje_monetario;\n      \n      if(fc == \"true\"){\n        puntaje_total += 19;\n      }\n      if(ai == \"true\"){\n        puntaje_total += 10;\n      }\n      if(dis == \"true\"){\n        puntaje_total += 1;\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_total.toFixed(7),i, 7);\n      $(\"#textVar003\").setText(propuesta_ideal_m1().toFixed(2));\n      $(\"#textVar003\").css(\"color\", \"green\");\n      \n  }\n  var ganador = resaltar_ganador();\n}\n\nfunction metodo2(){\t\n\n  var r = organizar_descendente();\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n  var m = obtener_cantidad_m();\n  var exponente = numRows + m;\n  var numero1 = Math.pow(parseFloat($(\"#textVar002\").getValue()),parseFloat(m));\n  var numero2 = obtener_multiplicacion_valores();\n  var mg_po=Math.pow((numero1 * numero2),1/exponente);\n\n  var puntaje_monetario=0;\n  var v_i =0;\n  var puntaje_total = 0;\n  var fc = false;\n  var ai = false;\n  var dis = false;\n\n  for (var i=1; i <= numRows; i++) {\n\n      v_i = parseFloat($(\"#gridVar001\").getText(i, 5));\n      \n      if(v_i <= mg_po){\n        puntaje_monetario = 70 * (1 - ((mg_po - v_i) / mg_po));\n      }\n      else{\n        puntaje_monetario = 70 * (1 - (2 * ( (Math.abs(mg_po - v_i)) / mg_po)));\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_monetario.toFixed(7),i, 6);\n\n      fc = $(\"#gridVar001\").getText(i, 2);\n      ai = $(\"#gridVar001\").getText(i, 3);\n      dis = $(\"#gridVar001\").getText(i, 4);\n\n      puntaje_total = puntaje_monetario;\n      \n      if(fc == \"true\"){\n        puntaje_total += 19;\n      }\n      if(ai == \"true\"){\n        puntaje_total += 10;\n      }\n      if(dis == \"true\"){\n        puntaje_total += 1;\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_total.toFixed(7),i, 7);\n      $(\"#textVar003\").setText(mg_po.toFixed(2));\n      $(\"#textVar003\").css(\"color\", \"green\");\n  }\n  var ganador = resaltar_ganador();\n}\n\nfunction metodo3(){\t\n\n  var r = organizar_descendente();\n  var v_max = calcular_propuesta_alta();\n  var x = obtener_promedio_general();\n  var x_a = (v_max + x) / 2;\n  \n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n  var puntaje_monetario=0;\n  var v_i =0;\n  var puntaje_total = 0;\n  var fc = false;\n  var ai = false;\n  var dis = false;\n\n  for (var i=1; i <= numRows; i++) {\n\n      v_i = parseFloat($(\"#gridVar001\").getText(i, 5));\n      \n      if(v_i <= x_a){\n        puntaje_monetario = 70 * (1 - ((x_a - v_i) / x_a));\n      }\n      else{\n        puntaje_monetario = 70 * (1 - (2 * ( (Math.abs(x_a - v_i)) / x_a)));\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_monetario.toFixed(7),i, 6);\n\n      fc = $(\"#gridVar001\").getText(i, 2);\n      ai = $(\"#gridVar001\").getText(i, 3);\n      dis = $(\"#gridVar001\").getText(i, 4);\n\n      puntaje_total = puntaje_monetario;\n      \n      if(fc == \"true\"){\n        puntaje_total += 19;\n      }\n      if(ai == \"true\"){\n        puntaje_total += 10;\n      }\n      if(dis == \"true\"){\n        puntaje_total += 1;\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_total.toFixed(7),i, 7);\n      $(\"#textVar003\").setText(x_a.toFixed(2));\n      $(\"#textVar003\").css(\"color\", \"green\");\n  }\n  var ganador = resaltar_ganador();\n}\n\nfunction metodo4(){\t\n\n  var r = organizar_descendente();\n  var v_min = calcular_propuesta_baja();\n  var x = obtener_promedio_general();\n  var x_b = (v_min + x) / 2;\n  \n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n  var puntaje_monetario=0;\n  var v_i =0;\n  var puntaje_total = 0;\n  var fc = false;\n  var ai = false;\n  var dis = false;\n\n  for (var i=1; i <= numRows; i++) {\n\n      v_i = parseFloat($(\"#gridVar001\").getText(i, 5));\n      \n      if(v_i <= x_b){\n        puntaje_monetario = 70 * (1 - ((x_b - v_i) / x_b));\n      }\n      else{\n        puntaje_monetario = 70 * (1 - ( (Math.abs(x_b - v_i)) / x_b));\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_monetario.toFixed(7),i, 6);\n\n      fc = $(\"#gridVar001\").getText(i, 2);\n      ai = $(\"#gridVar001\").getText(i, 3);\n      dis = $(\"#gridVar001\").getText(i, 4);\n\n      puntaje_total = puntaje_monetario;\n      \n      if(fc == \"true\"){\n        puntaje_total += 19;\n      }\n      if(ai == \"true\"){\n        puntaje_total += 10;\n      }\n      if(dis == \"true\"){\n        puntaje_total += 1;\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_total.toFixed(7),i, 7);\n      $(\"#textVar003\").setText(x_b.toFixed(2));\n      $(\"#textVar003\").css(\"color\", \"green\");\n  }\n  var ganador = resaltar_ganador();\n}\n\nfunction metodo5(){\t\n\n  var r = organizar_descendente();\n  var v_min = calcular_propuesta_baja();  \n  \n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n  var puntaje_monetario=0;\n  var v_i =0;\n  var puntaje_total = 0;\n  var fc = false;\n  var ai = false;\n  var dis = false;\n\n  for (var i=1; i <= numRows; i++) {\n\n      v_i = parseFloat($(\"#gridVar001\").getText(i, 5));      \n      \n      puntaje_monetario = (70 * v_min)/v_i;\n      \n      \n      $(\"#gridVar001\").setText(puntaje_monetario.toFixed(7),i, 6);\n\n      fc = $(\"#gridVar001\").getText(i, 2);\n      ai = $(\"#gridVar001\").getText(i, 3);\n      dis = $(\"#gridVar001\").getText(i, 4);\n\n      puntaje_total = puntaje_monetario;\n      \n      if(fc == \"true\"){\n        puntaje_total += 19;\n      }\n      if(ai == \"true\"){\n        puntaje_total += 10;\n      }\n      if(dis == \"true\"){\n        puntaje_total += 1;\n      }\n      \n      $(\"#gridVar001\").setText(puntaje_total.toFixed(7),i, 7);\n      $(\"#textVar003\").setText(propuesta_ideal_m5().toFixed(2));\n      $(\"#textVar003\").css(\"color\", \"green\");\n  }\n  var ganador = resaltar_ganador();\n}\n\nfunction obtener_promedio_general(){\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n  var suma=0;\n\n  for (var i=1; i <= numRows; i++) {\n\n      suma += parseFloat($(\"#gridVar001\").getText(i, 5));          \n  }\n\n  return suma/numRows;\n}\n\nfunction calcular_propuesta_baja(){\n\n  var v_mini = parseFloat($(\"#gridVar001\").getText(1, 5));\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;  \n\n  for (var i=1; i <= numRows; i++) {\n                \n      if(parseFloat($(\"#gridVar001\").getText(i, 5)) < v_mini){\n        v_mini = parseFloat($(\"#gridVar001\").getText(i, 5));\n      }\n  }\n\n  return v_mini;\n}\n\nfunction calcular_propuesta_alta(){\n\n  var v_maxi = parseFloat($(\"#gridVar001\").getText(1, 5));\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n\n  for (var i=1; i <= numRows; i++) {\n\n      if(parseFloat($(\"#gridVar001\").getText(i, 5)) > v_maxi){\n        v_maxi = parseFloat($(\"#gridVar001\").getText(i, 5));\n      }\n  }\n\n  return v_maxi;\n}\n\nfunction obtener_cantidad_m(){\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length\n\n  if ( numRows > 0 && numRows <= 3)\n  {        \n        return 1;\n  }\n  else if(numRows <= 6 && numRows > 3)\n  {\n        return 2;\n  }\n  else if(numRows <= 9 && numRows > 6)\n  {\n        return 3;     \n  }\n  else if(numRows <= 12 && numRows > 9)\n  {\n        return 4;   \n  }\n  else if(numRows <= 15 && numRows > 12)\n  {\n        return 5;     \n  }\n  else if ( numRows > 15 && numRows <= 18)\n  {        \n        return 6;\n  }\n  else if(numRows <= 21 && numRows > 18)\n  {\n        return 7;\n  }\n  else if(numRows <= 24 && numRows > 21)\n  {\n        return 8;    \n  }\n  else if(numRows <= 27 && numRows > 24)\n  {\n        return 9;\n  }\n  else if(numRows <= 30 && numRows > 27)\n  {\n        return 10;\n  }\n  else if(numRows <= 33 && numRows > 30)\n  {\n        return 11;\n  }\n}\n\nfunction obtener_multiplicacion_valores(){\n  var multi = 1;\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n\n  for (var i=1; i <= numRows; i++) {\n\n      \n      multi = multi * parseFloat($(\"#gridVar001\").getText(i, 5));\n      \n  }\n\n  return multi;\n}\n\nfunction resaltar_ganador(){\n\n  var v_maxi = parseFloat($(\"#gridVar001\").getText(1, 7));\n  var indice = 0;\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n\n  for (var i=1; i <= numRows; i++) {\n\n      if(parseFloat($(\"#gridVar001\").getText(i, 7)) > parseFloat(v_maxi)){\n        v_maxi = parseFloat($(\"#gridVar001\").getText(i, 7));\n        indice = i;        \n      }\n  }\n\n  $(\"#gridVar001\").getControl(indice, 1).css(\"border\",\"green solid 4px\");\n  $(\"#gridVar001\").getControl(indice, 2).css(\"border\",\"green solid 4px\");\n  $(\"#gridVar001\").getControl(indice, 3).css(\"border\",\"green solid 4px\");\n  $(\"#gridVar001\").getControl(indice, 4).css(\"border\",\"green solid 4px\");\n  $(\"#gridVar001\").getControl(indice, 5).css(\"border\",\"green solid 4px\");\n  $(\"#gridVar001\").getControl(indice, 6).css(\"border\",\"green solid 4px\");\n  $(\"#gridVar001\").getControl(indice, 7).css(\"border\",\"green solid 4px\");\n\n  return 1;\n}\n\nfunction desresaltar(){\n  \n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n\n  for (var i=1; i <= numRows; i++) {\n\n      $(\"#gridVar001\").getControl(i, 1).css(\"border\",\"gray solid 1px\");\n      $(\"#gridVar001\").getControl(i, 2).css(\"border\",\"gray solid 1px\");\n      $(\"#gridVar001\").getControl(i, 3).css(\"border\",\"gray solid 1px\");\n      $(\"#gridVar001\").getControl(i, 4).css(\"border\",\"gray solid 1px\");\n      $(\"#gridVar001\").getControl(i, 5).css(\"border\",\"gray solid 1px\");\n      $(\"#gridVar001\").getControl(i, 6).css(\"border\",\"gray solid 1px\");\n      $(\"#gridVar001\").getControl(i, 7).css(\"border\",\"gray solid 1px\");\n  }\n\n      \n\n  return 1;\n}\n\nfunction propuesta_ideal_m1(){\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;  \n  var recibe = 0;\n  var propuesta = 0;\n\n  if ((numRowss.length + 1) % 2 == 0){\n    \n    recibe = Math.trunc(numRows/2) +1;\n    propuesta = parseFloat($(\"#gridVar001\").getText(recibe, 5)) - 0.01;\n  }\n  else{\n    \n    recibe = Math.trunc(numRows/2) + 1;\n    propuesta = parseFloat($(\"#gridVar001\").getText(recibe, 5)) + 0.01;\n  }\n\n  return propuesta;\n}\n\nfunction propuesta_ideal_m5(){\n\n  var r = organizar_descendente();\n  var v_min = calcular_propuesta_baja();  \n  \n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n  var puntaje_monetario=0;\n  var v_i =0;\n  var puntaje_total = 0;\n  var fc = false;\n  var ai = false;\n  var dis = false;\n\n  var pro_baja = parseFloat(calcular_propuesta_baja()) - 0.01;\n\n  return pro_baja;\n}\n\nfunction formato(){\n\n /*var gridId = \"gridVar001\"; //set to ID of grid\n  var fieldId = \"text0000000003\"; //set to ID of text field inside grid\n\n  var numRowss = $(\"#gridVar001\").getValue();  \n  var numRows = numRowss.length;\n\n  //set the thousands separator in all existing rows when the Dynaform loads:  \n  for (var i = 1; i <= numRows; i++) {\n      //$(\"[id='form[\"+gridId+\"][\"+i+\"][\"+fieldId+\"]']\").maskNumber({decimal: ',', thousands: '.'});\n      $(\"#gridVar001\").getControl(i, 5).maskNumber();\n  }\n\n  //set the thousands separator in newly added rows:\n  $(\"#\"+gridId).onAddRow(function(aNewRow, oGrid, rowIndex) {\n      //$(\"[id='form[\"+gridId+\"][\"+rowIndex+\"][\"+fieldId+\"]']\").maskNumber({decimal: ',', thousands: '.'});\n      $(\"#gridVar001\").getControl(i, 5).maskNumber();\n  });*/\n}\n\n"},"language":"en","externalLibs":"jquery.masknumber.js","printable":false,"items":[[{"type":"image","id":"image0000000001","name":"image0000000001","label":"","hint":"","src":"https://pbs.twimg.com/media/Dfml6CMXcAcy_Nk.jpg","shape":"","alternateText":"","comment":"","alt":"","colSpan":12}],[{"type":"panel","id":"panel0000000001","content":"<iframe src=\"https://www.superfinanciera.gov.co/publicacion/60819\" width=\"100%\" height=\"190px\" frameborder=\"0\" style=\"border:0\"></iframe>","border":"1px","colSpan":12}],[{"colSpan":3},{"colSpan":3},{"colSpan":4},{"type":"subtitle","id":"subtitle0000000001","label":"subtitle_1","colSpan":2}],[{"type":"text","variable":"textVar001","var_uid":"7196968315d0933eaeb3104006492915","dataType":"string","protectedValue":false,"id":"textVar001","name":"textVar001","label":"Centavos TRM","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"Solo se puede ingresar 2 dígitos. ","maxLength":"2","formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar001","colSpan":6},{"type":"dropdown","variable":"dropdownVar001","var_uid":"8396510605d09344e1ec233037131648","dataType":"string","protectedValue":false,"id":"dropdownVar001","name":"dropdownVar001","label":"Método de Ponderación","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"view","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"1","label":"Mediana Con Valor Absoluto"},{"value":"2","label":"Mediana Geométrica Con Presupuesto Oficial"},{"value":"3","label":"Media Aritmética Alta"},{"value":"4","label":"Media Aritmética Baja"},{"value":"5","label":"Menor Valor"}],"var_name":"dropdownVar001","colSpan":6}],[{"type":"text","variable":"textVar002","var_uid":"2778548885d093532460e50007778775","dataType":"string","protectedValue":false,"id":"textVar002","name":"textVar002","label":"Presupuesto Oficial","defaultValue":"","placeholder":"$0.00","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar002","colSpan":12}],[{"type":"hidden","variable":"hiddenVar001","var_uid":"2899322475d1286c66c1c43097291680","dataType":"string","protectedValue":false,"id":"hiddenVar001","name":"hiddenVar001","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"hiddenVar001","colSpan":12}],[{"type":"grid","variable":"gridVar001","var_uid":"3917369445d09318be6f465003693787","dataType":"grid","protectedValue":false,"id":"gridVar001","name":"gridVar001","label":"LISTA DE PROPUESTAS","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"text0000000006","name":"text0000000006","label":"Proponente","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"upper","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"25","width":100,"title":"Proponente"},{"type":"checkbox","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"checkbox0000000001","name":"checkbox0000000001","label":"Factor de Calidad","defaultValue":true,"hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[],"columnWidth":"12","width":100,"title":"Factor de Calidad"},{"type":"checkbox","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"checkbox0000000002","name":"checkbox0000000002","label":"Industria Nacional","defaultValue":true,"hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[],"columnWidth":"12","width":100,"title":"Industria Nacional"},{"type":"checkbox","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"checkbox0000000003","name":"checkbox0000000003","label":"Discapacidad","defaultValue":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[],"columnWidth":"10","width":100,"title":"Discapacidad"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"text0000000003","name":"text0000000003","label":"Oferta Económica","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"12","width":100,"title":"Oferta Económica"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"text0000000004","name":"text0000000004","label":"Puntaje Oferta Económica","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"12","width":100,"title":"Puntaje Oferta Económica"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"text0000000005","name":"text0000000005","label":"Puntaje Total","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","columnWidth":"12","width":100,"title":"Puntaje Total"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"LISTA DE PROPUESTAS","colSpan":12}],[{"type":"text","variable":"textVar003","var_uid":"3983210075d12579590f936061616781","dataType":"string","protectedValue":false,"id":"textVar003","name":"textVar003","label":"Presupuesta Ideal Sugerida","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar003","colSpan":4},{"type":"text","variable":"textVar004","var_uid":"1585694125d13e6057f5774056918425","dataType":"string","protectedValue":false,"id":"textVar004","name":"textVar004","label":"Costo Directo","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar004","colSpan":4},{"type":"text","variable":"textVar005","var_uid":"2377536545d13e617e661d5090097495","dataType":"string","protectedValue":false,"id":"textVar005","name":"textVar005","label":"AUI","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"textVar005","colSpan":4}],[{"type":"subtitle","id":"subtitle0000000002","label":"IMPORTANTE: Se debe tener en cuenta que la propuesta ideal sugerida se da en función al valor de la oferta económica, con el fin de obtener el puntaje mas alto.","colSpan":12}],[{"type":"button","id":"button0000000001","name":"button0000000001","label":"Calcular Puntajes","colSpan":12}]],"variables":[{"var_uid":"7196968315d0933eaeb3104006492915","prj_uid":"4677296875d092f462952e1013059500","var_name":"textVar001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"8396510605d09344e1ec233037131648","prj_uid":"4677296875d092f462952e1013059500","var_name":"dropdownVar001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2778548885d093532460e50007778775","prj_uid":"4677296875d092f462952e1013059500","var_name":"textVar002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2899322475d1286c66c1c43097291680","prj_uid":"4677296875d092f462952e1013059500","var_name":"hiddenVar001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"3983210075d12579590f936061616781","prj_uid":"4677296875d092f462952e1013059500","var_name":"textVar003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"1585694125d13e6057f5774056918425","prj_uid":"4677296875d092f462952e1013059500","var_name":"textVar004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"2377536545d13e617e661d5090097495","prj_uid":"4677296875d092f462952e1013059500","var_name":"textVar005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2019-08-01 06:38:09]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>8011992265d0aca085fd041073639848</step_uid>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <tas_uid>9280094795d092f73d902d2099374087</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>6357422605d092f8b4c7613009645453</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers"/>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers"/>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory">
+      <record>
+        <category_uid>5011109515d4b0ca85a20f9095707811</category_uid>
+        <category_parent>0</category_parent>
+        <category_name>Americana</category_name>
+        <category_icon></category_icon>
+      </record>
+    </table>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1585694125d13e6057f5774056918425</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>textVar004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2377536545d13e617e661d5090097495</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>textVar005</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2778548885d093532460e50007778775</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>textVar002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2899322475d1286c66c1c43097291680</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>hiddenVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3917369445d09318be6f465003693787</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>gridVar001</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3983210075d12579590f936061616781</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>textVar003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7196968315d0933eaeb3104006492915</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>textVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8396510605d09344e1ec233037131648</var_uid>
+        <prj_uid>4677296875d092f462952e1013059500</prj_uid>
+        <var_name>dropdownVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager">
+      <record>
+        <prf_uid>1055406215d13ddef0f2902071986084</prf_uid>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/var/www/html/americana/shared/sites/americana/public/4677296875d092f462952e1013059500/2946735525d092f7451c369097926451Info.php]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>0</prf_editable>
+        <prf_create_date><![CDATA[2019-06-26 21:04:47]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>2059469435d13ddef187022057211953</prf_uid>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/var/www/html/americana/shared/sites/americana/public/4677296875d092f462952e1013059500/2946735525d092f7451c369097926451Post.php]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>0</prf_editable>
+        <prf_create_date><![CDATA[2019-06-26 21:04:47]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>5094870035d13ddef0a8571095543770</prf_uid>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/var/www/html/americana/shared/sites/americana/public/4677296875d092f462952e1013059500/2946735525d092f7451c369097926451.php]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>0</prf_editable>
+        <prf_create_date><![CDATA[2019-06-26 21:04:47]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>8901059505d13ddef2178c8089969689</prf_uid>
+        <pro_uid>4677296875d092f462952e1013059500</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/var/www/html/americana/shared/sites/americana/public/4677296875d092f462952e1013059500/wsClient.php]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>0</prf_editable>
+        <prf_create_date><![CDATA[2019-06-26 21:04:47]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+    </table>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>PUNTAJES</file_name>
+      <file_path><![CDATA[4677296875d092f462952e1013059500\6357422605d092f8b4c7613009645453.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjQ2NzcyOTY4NzVkMDkyZjQ2Mjk1MmUxMDEzMDU5NTAwLzYzNTc0MjI2MDVkMDkyZjhiNGM3NjEzMDA5NjQ1NDUzIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="public">
+      <file_name>2946735525d092f7451c369097926451Info.php</file_name>
+      <file_path><![CDATA[4677296875d092f462952e1013059500/2946735525d092f7451c369097926451Info.php]]></file_path>
+      <file_content><![CDATA[PD9waHAKCiRHX1BVQkxJU0ggPSBuZXcgUHVibGlzaGVyKCk7CiRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKJG1lc3NhZ2UgPSAiIjsKaWYgKGlzc2V0KCRfU0VTU0lPTlsiX193ZWJFbnRyeVN1Y2Nlc3NfXyJdKSkgewogICAgJHNob3cgPSAibG9naW4vc2hvd0luZm8iOwogICAgJG1lc3NhZ2UgPSAkX1NFU1NJT05bIl9fd2ViRW50cnlTdWNjZXNzX18iXTsKfSBlbHNlIHsKICAgICRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKICAgICRtZXNzYWdlID0gJF9TRVNTSU9OWyJfX3dlYkVudHJ5RXJyb3JfXyJdOwp9CiRHX1BVQkxJU0gtPkFkZENvbnRlbnQoInhtbGZvcm0iLCAieG1sZm9ybSIsICRzaG93LCAiIiwgJG1lc3NhZ2UpOwpHOjpSZW5kZXJQYWdlKCJwdWJsaXNoIiwgImJsYW5rIik7Cgo=]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

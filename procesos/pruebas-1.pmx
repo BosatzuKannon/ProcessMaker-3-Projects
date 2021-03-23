@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.3.3-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1568926649</meta>
+    <meta key="export_datetime"><![CDATA[2019-09-19T20:57:29+00:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[167.71.38.164:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50640</meta>
+    <meta key="workspace">americana</meta>
+    <meta key="name">pruebas</meta>
+    <meta key="uid">2299789195d3f43d8d24df5017312232</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY"/>
+    <table name="ARTIFACT"/>
+    <table name="BOUND"/>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>1632591685d3f43d8def936099155706</dia_uid>
+        <prj_uid>2299789195d3f43d8d24df5017312232</prj_uid>
+        <dia_name>pruebas</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT"/>
+    <table name="EXTENSION"/>
+    <table name="FLOW"/>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>9266075475d3f43d8e05487091906728</pro_uid>
+        <prj_uid>2299789195d3f43d8d24df5017312232</prj_uid>
+        <dia_uid>1632591685d3f43d8def936099155706</dia_uid>
+        <pro_name>pruebas</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>2299789195d3f43d8d24df5017312232</prj_uid>
+        <prj_name>pruebas</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2019-07-29 19:07:04]]></prj_create_date>
+        <prj_update_date><![CDATA[2019-07-29 19:11:58]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>2299789195d3f43d8d24df5017312232</pro_uid>
+        <pro_title>pruebas</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>2299789195d3f43d8d24df5017312232</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2019-07-29 19:11:58]]></pro_update_date>
+        <pro_create_date><![CDATA[2019-07-29 19:07:04]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label><![CDATA[Sin Categoría]]></pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks"/>
+    <table name="routes"/>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>3574983295d3f44e77633b2006527710</dyn_uid>
+        <dyn_title>prueba dropdown</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>2299789195d3f43d8d24df5017312232</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[2299789195d3f43d8d24df5017312232/3574983295d3f44e77633b2006527710]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"prueba dropdown","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"3574983295d3f44e77633b2006527710","name":"prueba dropdown","description":"","mode":"edit","script":{"type":"js","code":"//when form loads, add options stored in the \"servicesList\" hidden field \n//to the \"selectService\" dropdown. These options were stored from the previous time \n//the Dynaform was filled out by the user.\nvar aServices = $(\"#servicesList\").getValue() == '' ? [] : JSON.parse( $(\"#servicesList\").getValue() );\n\nfor (index in aServices) {\n  var key = aServices[index][0];\n  var label = aServices[index][1];\n  var selected = ( $('#selectService').getValue() == key );\n  \n  //if the option doesn't already exist in the dropdown then add it:\n  if ($(\"#selectService option[value='\"+key+\"']\").length == 0) {\n    $('#selectService').getControl().append( \n      new Option(label, key, false, selected) \n    );\n  }  \n}\n\n\n//add option to \"selectService\" dropdown box when the \"Add Option\" button is clicked:\n$(\"#addOptionBtn\").find(\"button\").click( function() {\n  var newKey = $(\"#newKey\").getValue();\n  var newLabel = $(\"#newLabel\").getValue();\n  var defaultSelected = false;\n  var nowSelected     = true;\n  \n  if (newKey == '' || newLabel == '') {\n    alert(\"Fill in a New Key and New Label before clicking the 'Add Option' button\");\n    return; //do nothing if empty\n  }\n  \n  //add new option to dropdown box:\n  $('#selectService').getControl().append( new Option(newLabel, newKey, defaultSelected, nowSelected) );\n  \n  $(\"#newKey\").setValue('');\n  $(\"#newLabel\").setValue('');\n})\n\n//delete option from the \"selectService\" dropdown box \n//when the \"Delete selected option\" button is clicked:\n$(\"#deleteSelectedBtn\").find(\"button\").click( function() {\n  var selectedKey = $(\"#selectService\").getValue();\n  if (selectedKey != '') {\n    //$('#selectService').getControl().find().remove();\n    //$('#selectService').setValue('');\n    $('#selectService').val(0);\n  }\n})  \n\n//when the DynaForm is submitted, save the list of added options as a JSON string\n//to the \"servicesList\" field, so that those options can be displayed if the Dynaform \n//is displayed a second time  \ngetFormById( $(\"form\").prop(\"id\") ).setOnSubmit( function() { \n  var aServices = [];\n  var aCurrentOpts = $(\"#selectService option\");\n  \n  for (idx = 0; idx < aCurrentOpts.length; idx++) {\n    var key = aCurrentOpts.eq(idx).prop(\"value\")\n    var label = aCurrentOpts.eq(idx).prop(\"text\")\n    aServices.push( [key, label] );\n  }\n  \n  $(\"#servicesList\").setValue( JSON.stringify(aServices) );\n})"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"subtitle","id":"subtitle0000000001","label":"New Service Option","colSpan":12}],[{"type":"text","variable":"newOption","var_uid":"8159615685d3f43ef62f2a5064956663","dataType":"string","protectedValue":false,"id":"newKey","name":"newOption","label":"New Key","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"newOption","colSpan":5},{"type":"text","variable":"newLabel","var_uid":"3986824375d3f43ef6be0e6004421144","dataType":"string","protectedValue":false,"id":"newLabel","name":"newLabel","label":"New Label","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"newLabel","colSpan":5},{"type":"button","id":"addOptionBtn","name":"addOptionBtn","label":"Add Option","colSpan":2}],[{"type":"dropdown","variable":"selectService","var_uid":"1003631665d3f43ef776397041465223","dataType":"string","protectedValue":false,"id":"selectService","name":"selectService","label":"Select Service","defaultValue":"","placeholder":"","hint":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","dataVariable":"","options":[{"value":"catering","label":"Catering"},{"value":"accounting","label":"Accounting"},{"value":"lawn_service","label":"Lawn Service"}],"var_name":"selectService","colSpan":10},{"type":"button","id":"deleteSelectedBtn","name":"deleteSelectedBtn","label":"Delete selected Option","colSpan":2}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Submit","colSpan":12}],[{"type":"hidden","variable":"servicesList","var_uid":"8689386345d3f43ef8061a1087853783","dataType":"string","protectedValue":false,"id":"servicesList","name":"servicesList","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"servicesList","colSpan":12}]],"variables":[{"var_uid":"8159615685d3f43ef62f2a5064956663","prj_uid":"2299789195d3f43d8d24df5017312232","var_name":"newOption","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"7916460745b286191dcfe91093835702","var_name_old":"newOption","prj_uid_old":"9763320645b246f9bd50c29070855634","create":false},{"var_uid":"3986824375d3f43ef6be0e6004421144","prj_uid":"2299789195d3f43d8d24df5017312232","var_name":"newLabel","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"1064987095b286579ab2f35038508658","var_name_old":"newLabel","prj_uid_old":"9763320645b246f9bd50c29070855634","create":false},{"var_uid":"1003631665d3f43ef776397041465223","prj_uid":"2299789195d3f43d8d24df5017312232","var_name":"selectService","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9597604495b2861f0115b94026878778","var_name_old":"selectService","prj_uid_old":"9763320645b246f9bd50c29070855634","create":false},{"var_uid":"8689386345d3f43ef8061a1087853783","prj_uid":"2299789195d3f43d8d24df5017312232","var_name":"servicesList","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"8031172965b2865fe1f9db7055730941","var_name_old":"servicesList","prj_uid_old":"9763320645b246f9bd50c29070855634","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2019-07-29 19:17:31]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps"/>
+    <table name="triggers"/>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers"/>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1003631665d3f43ef776397041465223</var_uid>
+        <prj_uid>2299789195d3f43d8d24df5017312232</prj_uid>
+        <var_name>selectService</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3986824375d3f43ef6be0e6004421144</var_uid>
+        <prj_uid>2299789195d3f43d8d24df5017312232</prj_uid>
+        <var_name>newLabel</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8159615685d3f43ef62f2a5064956663</var_uid>
+        <prj_uid>2299789195d3f43d8d24df5017312232</prj_uid>
+        <var_name>newOption</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8689386345d3f43ef8061a1087853783</var_uid>
+        <prj_uid>2299789195d3f43d8d24df5017312232</prj_uid>
+        <var_name>servicesList</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>prueba dropdown</file_name>
+      <file_path><![CDATA[2299789195d3f43d8d24df5017312232/3574983295d3f44e77633b2006527710.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjIyOTk3ODkxOTVkM2Y0M2Q4ZDI0ZGY1MDE3MzEyMjMyLzM1NzQ5ODMyOTVkM2Y0NGU3NzYzM2IyMDA2NTI3NzEwIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
